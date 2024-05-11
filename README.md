@@ -1,7 +1,9 @@
 # rurux-frontend
 start building this project from 12:00am till 12:40pm today
+
 Project Name
 A brief description of the project.
+Here, there Admin login is hardcorded 
 
 Table of Contents
 Installation

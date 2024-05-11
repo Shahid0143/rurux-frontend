@@ -22,12 +22,12 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/student">
-                Student Page
+              <Link className="nav-link" to="/admin/subjects">
+                Subject Page
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/student/enrollment">
+              <Link className="nav-link" to="/admin/studentlist">
                 Student Enrollment
               </Link>
             </li>
@@ -37,12 +37,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/subjects">
-                Subject Page
+              <Link className="nav-link" to="/student/performance/:id">
+                performance Page
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/marks">
+              <Link className="nav-link" to="/admin/marks">
                 Marks Page
               </Link>
             </li>
